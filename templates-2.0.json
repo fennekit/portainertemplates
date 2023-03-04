@@ -451,7 +451,7 @@
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/rabbitmq.png",
       "image": "rabbitmq:3.11-management-alpine",
-      "ports": ["5671/tcp", "5672/tcp"],
+      "ports": ["5671/tcp", "5672/tcp", 15672/tcp],
       "volumes": [
         {
           "container": "/var/lib/rabbitmq"
